@@ -1,4 +1,4 @@
-package de.fbeckmann.seamcarvingapp;
+package de.fbeckmann.seamcarvingapplication;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -8,7 +8,7 @@ public class SeamCarving {
 
     BufferedImage img;
     double[][] energy;
-    
+
     String direction;
     int pixelAmount;
     String output;
